@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+/* Ensure smooth theme transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default focus outline and use custom focus styles */
+*:focus {
+  outline: none;
+}
+
+/* Ensure proper stacking context for modals and overlays */
+#root {
+  isolation: isolate;
+}
+/* Elegant Dark Mode - Custom Styling */
+.dark {
+  color-scheme: dark;
+}
+
+/* Base colors */
+.dark body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+/* Backgrounds */
+.dark .bg-white {
+  background-color: var(--color-card) !important;
+}
+
+.dark .bg-gray-50 {
+  background-color: var(--color-background) !important;
+}
+
+.dark .bg-gray-100 {
+  background-color: var(--color-muted) !important;
+}
+
+.dark .bg-blue-50 {
+  background-color: rgba(var(--color-primary), 0.1) !important;
+}
+
+/* Text colors */
+.dark .text-gray-900 {
+  color: var(--color-card-foreground) !important;
+}
+
+.dark .text-gray-800 {
+  color: var(--color-card-foreground) !important;
+}
+
+.dark .text-gray-700 {
+  color: var(--color-foreground) !important;
+}
+
+.dark .text-gray-600 {
+  color: var(--color-muted-foreground) !important;
+}
+
+.dark .text-gray-500 {
+  color: var(--color-muted-foreground) !important;
+}
+
+.dark .text-blue-900 {
+  color: var(--color-primary) !important;
+}
+
+.dark .text-blue-700 {
+  color: var(--color-primary) !important;
+}
+
+.dark .text-blue-600 {
+  color: var(--color-primary) !important;
+}
+
+/* Borders */
+.dark .border-gray-200 {
+  border-color: var(--color-border) !important;
+}
+
+.dark .border-gray-300 {
+  border-color: var(--color-border) !important;
+}
+
+.dark .border-blue-200 {
+  border-color: rgba(var(--color-primary), 0.3) !important;
+}
+
+/* Form elements */
+.dark input,
+.dark textarea,
+.dark select {
+  background-color: var(--color-input) !important;
+  border-color: var(--color-border) !important;
+  color: var(--color-foreground) !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: var(--color-muted-foreground) !important;
+}
+
+/* Custom components */
+.dark .glassmorphism {
+  background-color: rgba(var(--color-card), 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+  border-color: rgba(var(--color-border), 0.2) !important;
+}
+
+/* Shadows */
+.dark .shadow-soft {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.15) !important;
+}
+
+.dark .shadow-md,
+.dark .shadow-lg,
+.dark .shadow-xl {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Cards and containers */
+.dark .rounded-lg,
+.dark .rounded-md,
+.dark .rounded-xl {
+  background-color: var(--color-card);
+}
+
+/* Keep the transition for smooth theme switching */
+body * {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

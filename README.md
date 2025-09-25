@@ -8,6 +8,19 @@ Modern UI/UX
 - Dark/Light Mode: Seamless theme switching with persistent preferences
 - Responsive Design: Works perfectly on desktop, tablet, and mobile devices
 - Smooth Animations: Polished transitions and micro-interactions
+
+## 📱 Screenshots
+
+### Light Mode
+![Light Mode Dashboard](https://drive.google.com/file/d/1O7cH_bgg_WXPrACuzq-_GLWz6HNbl1rQ/view?usp=sharing)
+
+### Dark Mode
+![Dark Mode Dashboard](https://drive.google.com/file/d/1PW5ZmCr_iNjoln-ptaur3gwQkXh6F7Oy/view?usp=sharing)
+![Dark Mode Dashboard](https://drive.google.com/file/d/1CfN9_fxNJ050W-XpbriCQudjv29xBSec/view?usp=drive_link)
+
+### Mobile Responsive
+![Mobile View](https://drive.google.com/file/d/1UpV7iaFGr8cJNpqGtbmEJeJKwdg1X8W7/view?usp=sharing)
+![Mobile View](https://drive.google.com/file/d/1f3zgADOjvWHcYxlD3CvmR7KF3IJ1z8hB/view?usp=sharing)
   
 Application Management
 - Track Applications across multiple platforms

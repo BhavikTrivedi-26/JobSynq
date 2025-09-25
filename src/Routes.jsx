@@ -13,21 +13,21 @@ import Register from './pages/register';
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/JobSynq">
       <ErrorBoundary>
-      <ScrollToTop />
-      <RouterRoutes>
-        {/* Define your route here */}
-        <Route path="/" element={<AddApplication />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/analytics" element={<Analytics />} />
-        <Route path="/profile-settings" element={<ProfileSettings />} />
-        <Route path="/applications" element={<Applications />} />
-        <Route path="/add-application" element={<AddApplication />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="*" element={<NotFound />} />
-      </RouterRoutes>
+        <ScrollToTop />
+        <RouterRoutes>
+          {/* Define your route here */}
+          <Route path="/" element={<AddApplication />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/analytics" element={<Analytics />} />
+          <Route path="/profile-settings" element={<ProfileSettings />} />
+          <Route path="/applications" element={<Applications />} />
+          <Route path="/add-application" element={<AddApplication />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="*" element={<NotFound />} />
+        </RouterRoutes>
       </ErrorBoundary>
     </BrowserRouter>
   );

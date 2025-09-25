@@ -1,6 +1,7 @@
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github)](https://bhaviktrivedi-26.github.io/JobSynq/)
+
 JobSynq 🎯
 A modern, feature-rich job application tracking system built with React and Tailwind CSS. Track your job applications, manage interviews, and analyze your job search progress with a beautiful, responsive interface.
-[Live Demo](https://bhaviktrivedi-26.github.io/JobSynq/) | [GitHub Repository](https://github.com/BhavikTrivedi-26/JobSynq)
 
 ✨ Features
 Modern UI/UX
